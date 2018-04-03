@@ -1,4 +1,4 @@
-# Windows UWP Bluetooth LE HeartRate plugin for Hololens  
+# Unity Bluetooth LE HeartRate plugin for Windows/Hololens UWP apps 
   
 Unity Store Link:  
 https://assetstore.unity.com/packages/tools/input-management/hololens-heart-rate-monitor-plugin-76113  
@@ -8,8 +8,8 @@ Check here for the latest version of the plugin in case Unity has a delay in pub
 The Plugin allows Unity apps for Windows or HoloLens/Mixed Reality to connect with external Bluetooth LE Heart Rate Monitors. This version of the plugin is free and a plugin with Pro features will be released soon.  
 
 Pro Features coming soon:  
--- Connect to a device without pairing it to your computer/HoloLens first.  
--- Access to the complete raw byte array data coming from the device. Currently we return only the first 2 bytes of the array (the flags byte and the heart rate byte). Additional data that may come from devices (such as the Polar H7 chest strap) include inter-beat intervals (the time between each recent heart beat) which is good for HRV study (Heart Rate Variability), a measure of stress.
+- Connect to a device without pairing it to your computer/HoloLens first.  
+- Access to the complete raw byte array data coming from the device. Currently we return only the first 2 bytes of the array (the flags byte and the heart rate byte). Additional data that may come from devices (such as the Polar H7 chest strap) include inter-beat intervals (the time between each recent heart beat) which is good for HRV study (Heart Rate Variability), a measure of stress.
 
 HRM Compatibility Testing -- Please report any other device combos you test.  
 - Polar H& – Chest strap. The benchmark device I test with. Full support.  
